@@ -14,3 +14,6 @@ trimesh
 matplotlib
 scipy
 viser
+roma
+evo
+accelerate

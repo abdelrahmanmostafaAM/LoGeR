@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Usage: ./download_ckpt_gcp.sh [CUDA_DEVICE] [INPUT_PATH]
-# Example: ./download_ckpt_gcp.sh 0 /path/to/your/data
+# Usage: bash demo_run.sh [CUDA_DEVICE] [INPUT_PATH]
+# Example: bash demo_run.sh 0 /path/to/your/data
 
 # Get arguments
 CUDA_DEVICE=$1
@@ -22,7 +22,7 @@ for ckpt_name in "${ckpt_list[@]}"; do
     config_path="ckpts/${ckpt_name}/original_config.yaml"
     model_path="ckpts/${ckpt_name}/latest.pt"
 
-    input_path="${INPUT_PATH:data/examples/office}"
+    input_path="${INPUT_PATH:-data/examples/office}"
 
     echo "Running evaluation..."
 
@@ -37,7 +37,7 @@ for ckpt_name in "${ckpt_list[@]}"; do
         --overlap_size 3 \
         --subsample 2 \
         --share \
-        --reset_every 5
+        # --reset_every 5  # turned on for extreme long sequences (>1k frames)
 
 
     echo "--- Finished processing $ckpt_name ---"
